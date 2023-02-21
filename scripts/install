@@ -68,7 +68,7 @@ ynh_install_app_dependencies $pkg_dependencies
 #=================================================
 ynh_script_progression --message="Installing Node.js..." --time --weight=11
 
-ynh_install_nodejs --nodejs_version="10"
+ynh_install_nodejs --nodejs_version="19"
 ynh_use_nodejs
 # $nodejs_path: The absolute path of node for the chosen version.
 # $nodejs_version: Just the version number of node for this app. Stored as 'nodejs_version' in settings.yml.
